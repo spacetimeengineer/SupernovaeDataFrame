@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cosmic_expansion_analyzer"
+version = "1.0.0"
+description = "A Python package for analyzing cosmic expansion using supernova data."
+authors = [
+    { name = "Your Name", email = "your.email@example.com" }
+]
+license = { text = "MIT" }
+dependencies = [
+    "pandas",
+    "matplotlib",
+]
+
+[project.scripts]
+cosmoexp = "supernovae_dataframe:main"

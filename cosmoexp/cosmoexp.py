@@ -375,3 +375,22 @@ class SupernovaExpansionAnalyzer:
 if __name__ == "__main__":
     # Pass the path to your data file containing redshift + distance values.
     SupernovaExpansionAnalyzer()
+
+# ----- SCRIPT ENTRY POINT -----
+# If this script is run directly (not imported as a module), run the analysis.
+def main():
+    """
+    Entry point for the console script.
+    """
+    # Pass the path to your data file containing redshift + distance values.
+    analyzer = SupernovaExpansionAnalyzer()
+    print("Supernova Expansion Analysis Complete!")
+    # Add any additional functionality here
+
+
+
+
+if __name__ == "__main__":
+    # Pass the path to your data file containing redshift + distance values.
+    # This is where the main function would be called if needed.
+    main()
