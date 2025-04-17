@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cosmic_expansion_analyzer"
+name = "cosmoexp"
 version = "1.0.0"
 description = "A Python package for analyzing cosmic expansion using supernova data."
 authors = [
