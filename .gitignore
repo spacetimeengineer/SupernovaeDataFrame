@@ -1,0 +1,39 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+venv/
+env/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Matplotlib cache
+.matplotlib/
+
+# Data files (if any)
+*.csv
+*.tsv
+*.dat
+*.json
+
+# Ignore plots or generated images
+*.png
+*.jpg
+*.jpeg
+*.svg
