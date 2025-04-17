@@ -10,7 +10,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "cosmoexp=supernovae_dataframe:main",  # Replace `main` with the actual entry point function
+            "cosmoexp=cosmoexp:main",  # Replace `main` with the actual entry point function
         ],
     },
 )

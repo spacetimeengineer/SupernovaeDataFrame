@@ -16,4 +16,4 @@ dependencies = [
 ]
 
 [project.scripts]
-cosmoexp = "supernovae_dataframe:main"
+cosmoexp = "cosmoexp:main"

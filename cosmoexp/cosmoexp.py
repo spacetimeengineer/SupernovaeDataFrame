@@ -223,7 +223,7 @@ raw_data = """
 
 
 
-class SupernovaExpansionAnalyzer:
+class CosmologicalExpansionAnalyzer:
     def __init__(self):
         """
         Initialize the analyzer with constants of cosmology and parse the supernova dataset.
@@ -374,7 +374,7 @@ class SupernovaExpansionAnalyzer:
 # If this script is run directly (not imported as a module), run the analysis.
 if __name__ == "__main__":
     # Pass the path to your data file containing redshift + distance values.
-    SupernovaExpansionAnalyzer()
+    CosmologicalExpansionAnalyzer()
 
 # ----- SCRIPT ENTRY POINT -----
 # If this script is run directly (not imported as a module), run the analysis.
@@ -383,7 +383,7 @@ def main():
     Entry point for the console script.
     """
     # Pass the path to your data file containing redshift + distance values.
-    analyzer = SupernovaExpansionAnalyzer()
+    analyzer = CosmologicalExpansionAnalyzer()
     print("Supernova Expansion Analysis Complete!")
     # Add any additional functionality here
 
