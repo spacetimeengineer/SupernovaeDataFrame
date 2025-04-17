@@ -8,7 +8,7 @@ These measurements can be used for studying cosmic expansion, Hubble's law, and 
 
 ## 🚀 Overview
 
-The dataset is embedded directly in the script as a multi-line string using CSV format. The class `CosmicExpansionDataset` reads and parses this data on instantiation.
+The dataset is embedded directly in the script as a multi-line string using CSV format. The class `CosmologicalExpansionAnalyzer` reads and parses this data on instantiation.
 
 Each data entry contains:
 - `redshift` (z): Dimensionless, derived from supernova light spectra.
@@ -26,21 +26,13 @@ Each data entry contains:
 
 ## 🧪 Example Usage
 
-```python
-from cosmic_expansion import CosmicExpansionDataset
+After installing the package, simply type the following command in your terminal:
 
-dataset = CosmicExpansionDataset()
-df = dataset.df
+```bash
+cosmoexp
+```
 
-# Accessing the redshift and distance columns
-print(df.head())
+This will automatically load the dataset and display a Hubble diagram, showcasing the relationship between redshift and comoving distance.
 
-# Example: Plotting the Hubble diagram
-import matplotlib.pyplot as plt
+No additional setup or coding is required except anything that you might contribute.
 
-plt.scatter(df['redshift'], df['distance_mpc'], s=10)
-plt.xlabel('Redshift (z)')
-plt.ylabel('Distance (Mpc)')
-plt.title('Hubble Diagram')
-plt.grid(True)
-plt.show()
